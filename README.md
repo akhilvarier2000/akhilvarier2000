@@ -2,12 +2,12 @@
 <h1 align="center">Hi, I'm Akhil Varier</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&pause=1200&color=5898FF&center=true&vCenter=true&width=800&height=50&lines=Data+Analyst+%F0%9F%93%8A;Data+Scientist+%F0%9F%A7%A0;Data+Engineer+%E2%9A%99%EF%B8%8F;Machine+Learning+Engineer+%F0%9F%A4%96" alt="Animated roles" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&pause=1200&color=5898FF&center=true&vCenter=true&width=800&height=50&lines=Salesforce+Developer+%E2%9A%A1%EF%B8%8F;Aspiring+AI+%26+ML+Engineer+%F0%9F%A4%96" alt="Animated roles" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RudraYBedekar&label=Profile%20Views&color=5898FF&style=flat" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/RudraYBedekar?label=Followers&style=flat&color=5898FF" alt="GitHub followers" />
+  <img src="https://komarev.com/ghpvc/?username=akhilvarier2000&label=Profile%20Views&color=5898FF&style=flat" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/akhilvarier2000?label=Followers&style=flat&color=5898FF" alt="GitHub followers" />
 </p>
 
 ---
@@ -37,7 +37,6 @@
 
 ![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
@@ -46,23 +45,11 @@
 ![React](https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Amazon EC2](https://img.shields.io/badge/AMAZON_EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
-![IAM Role](https://img.shields.io/badge/IAM_ROLE-DD344C?style=for-the-badge&logo=amazoniam&logoColor=white)
-![Amazon Bedrock](https://img.shields.io/badge/AMAZON_BEDROCK-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Amazon RDS](https://img.shields.io/badge/AMAZON_RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white)
-![Amazon S3](https://img.shields.io/badge/AMAZON_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
-![AWS Glue](https://img.shields.io/badge/AWS_GLUE-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Amazon Athena](https://img.shields.io/badge/ATHENA-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MYSQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Snowflake](https://img.shields.io/badge/SNOWFLAKE-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLITE-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-![Power BI](https://img.shields.io/badge/POWER_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/TABLEAU-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/EXCEL-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
 ![Pandas](https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NUMPY-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -75,7 +62,6 @@
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
 
 ![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/KUBERNETES-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GITHUB_ACTIONS-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white)
 
@@ -115,28 +101,3 @@ Developed a real-time fleet analytics platform using **Python, FastAPI, Kafka, P
 - BI dashboards and KPI reporting  
 - Machine learning model evaluation and forecasting  
 
-
-# 👋 Hi, I'm @akhilvarier
-
-I'm a passionate developer building cool things with code.
-
-## 🚀 Featured Projects
-
-<!-- PROJECTS_START -->
-<!-- This section is automatically updated by GitHub Actions -->
-<!-- PROJECTS_END -->
-
-## 📊 GitHub Stats
-
-![akhilvarier's GitHub stats](https://github-readme-stats.vercel.app/api?username=akhilvarier&show_icons=true&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akhilvarier&layout=compact&theme=radical)
-
-## 📫 How to reach me
-
-- Twitter: [@akhilvarier](https://twitter.com/akhilvarier)
-- LinkedIn: [akhilvarier](https://linkedin.com/in/akhilvarier)
-
----
-
-⭐️ From [akhilvarier](https://github.com/akhilvarier)
