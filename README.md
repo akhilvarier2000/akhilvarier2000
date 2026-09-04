@@ -82,9 +82,7 @@
 ---
 
 # 🚀 Featured Projects:
-
-### Enterprise AI Adoption Hub  
-Built a secure AI chat platform using **RAG, FAISS, OpenAI API, Streamlit, SQLite, prompt templates, guardrails, and document-grounded responses**.
+[![Repo Card](https://github-readme-club.vercel.app/api/pin?username=your-github-akhilvarier2000&repo=Spotifyclone)](https://github.com/akhilvarier2000/Spotifyclone)
 
 ### Chat With Your Dataset  
 Created a self-service analytics app where users can upload CSV files, ask natural-language questions, detect missing values, generate summaries, and explore business insights.
