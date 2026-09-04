@@ -82,7 +82,7 @@
 ---
 
 # 🚀 Featured Projects:
-[![Repo Card](https://github-readme-club.vercel.app/api/pin?username=your-github-akhilvarier2000&repo=Spotifyclone)](https://github.com/akhilvarier2000/Spotifyclone)
+
 
 ### Chat With Your Dataset  
 Created a self-service analytics app where users can upload CSV files, ask natural-language questions, detect missing values, generate summaries, and explore business insights.
@@ -114,4 +114,118 @@ Developed a real-time fleet analytics platform using **Python, FastAPI, Kafka, P
 - Cloud-native AWS deployments  
 - BI dashboards and KPI reporting  
 - Machine learning model evaluation and forecasting  
+
+
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Generate README with featured projects
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const axios = require('axios');
+
+            // Configuration
+            const USERNAME = '${{ github.actor }}';  // This will be replaced with actual username
+            const NUM_FEATURED = 6;  // Number of featured projects to show
+
+            try {
+              // Fetch user's repositories
+              const { data: repos } = await axios.get(
+                `https://api.github.com/users/${USERNAME}/repos`,
+                {
+                  params: {
+                    sort: 'updated',
+                    direction: 'desc',
+                    per_page: 100
+                  },
+                  headers: {
+                    Authorization: `token ${{ secrets.GITHUB_TOKEN }}`
+                  }
+                }
+              );
+
+              // Filter out forks and sort by stars
+              const featuredRepos = repos
+                .filter(repo => !repo.fork)
+                .sort((a, b) => b.stargazers_count - a.stargazers_count)
+                .slice(0, NUM_FEATURED);
+
+              // Generate projects section
+              let projectsSection = '<!-- PROJECTS_START -->\n';
+              projectsSection += '## 🚀 Featured Projects\n\n';
+
+              // Create a grid layout
+              projectsSection += '<table><tr>\n';
+              featuredRepos.forEach((repo, index) => {
+                if (index % 3 === 0 && index !== 0) {
+                  projectsSection += '</tr><tr>\n';
+                }
+                projectsSection += `<td align="center" valign="top" width="33%">\n`;
+                projectsSection += `<a href="${repo.html_url}">\n`;
+                projectsSection += `<img src="${repo.owner.avatar_url}" width="80" height="80" alt="${repo.name}" style="border-radius: 50%;">\n`;
+                projectsSection += `<br><strong>${repo.name}</strong>\n`;
+                projectsSection += `</a>\n`;
+                projectsSection += `<p>${repo.description || 'No description provided'}</p>\n`;
+                projectsSection += `<p>\n`;
+                projectsSection += `⭐ ${repo.stargazers_count} • 🍴 ${repo.forks_count} • ${repo.language || 'Unknown'}\n`;
+                projectsSection += `</p>\n`;
+                projectsSection += `</td>\n`;
+              });
+
+              // Fill empty cells if needed
+              const remainder = featuredRepos.length % 3;
+              if (remainder > 0) {
+                for (let i = 0; i < 3 - remainder; i++) {
+                  projectsSection += `<td align="center" valign="top" width="33%"></td>\n`;
+                }
+              }
+
+              projectsSection += '</tr></table>\n';
+              projectsSection += '<!-- PROJECTS_END -->\n';
+
+              // Read current README
+              let readme = fs.readFileSync('./README.md', 'utf8');
+
+              // Replace projects section
+              const startMarker = '<!-- PROJECTS_START -->';
+              const endMarker = '<!-- PROJECTS_END -->';
+
+              const startIndex = readme.indexOf(startMarker);
+              const endIndex = readme.indexOf(endMarker, startIndex + startMarker.length);
+
+              if (startIndex !== -1 && endIndex !== -1) {
+                const before = readme.substring(0, startIndex);
+                const after = readme.substring(endIndex + endMarker.length);
+                readme = before + projectsSection + after;
+
+                // Write updated README
+                fs.writeFileSync('./README.md', readme);
+                console.log('README updated successfully!');
+              } else {
+                console.log('Could not find project markers in README');
+              }
+            } catch (error) {
+              console.error('Error updating README:', error.message);
+              // Don't fail the workflow for API errors
+            }
 
