@@ -13,13 +13,10 @@
 ---
 
 # 👋 About Me:
-
-🎓 MS in Information Systems student at **George Mason University** with a **3.97/4.0 GPA**  
-💻 Data Analyst and Software Developer focused on **AI-powered analytics, BI reporting, cloud data pipelines, and backend systems**  
-🤖 Building with **LLMs, RAG, Prompt Engineering, Amazon Bedrock, OpenAI APIs, LangChain, FAISS, and Streamlit**  
-📊 Experienced in creating **Power BI, Tableau, and SQL-driven dashboards** for KPI reporting, forecasting, trend analysis, and business insights  
-☁️ Hands-on with **AWS S3, RDS, Glue, Athena, SageMaker, EC2, Docker, Kubernetes, and CI/CD workflows**  
-🧠 Interested in **Generative AI, data engineering, machine learning, real-time analytics, and cloud-native applications**  
+ 
+💻 Salesforce Developer and Administrator building **AI-powered Salesforce solutions, cloud data pipelines, and intelligent backend systems**.<br>
+🤖 Building with **LLMs, RAG, Prompt Engineering, OpenAI APIs, LangChain, FAISS, and Streamlit**  
+🧠 Interested in **Generative AI, Agentic AI, machine learning, and cloud-native applications**  
 🌱 Continuously learning advanced AI agent workflows, scalable backend systems, and production-grade data platforms  
 🔗 Connect with me below
 
@@ -70,25 +67,26 @@
 # 🚀 Featured Projects:
 
 
-### Chat With Your Dataset  
-Created a self-service analytics app where users can upload CSV files, ask natural-language questions, detect missing values, generate summaries, and explore business insights.
+### Spotify Clone 
+Created full-stack Spotify clone with **Spotify OAuth**, **Web Playback SDK**, personalized music discovery, and an AI-powered recommendation engine built with **React, TypeScript, Node.js**, and **Claude**. 
 
-### Retail Performance & Forecasting Dashboard  
-Built a dashboard using **Python, SQL, Pandas, Streamlit, ARIMA, SARIMA, Random Forest, and Linear Regression** to track sales trends, revenue performance, and demand forecasting.
+### FlowMind AI 
+Built an AI automation platform built with **FastAPI, Next.js** and **PostgreSQL**. 
 
-### Autonomous Fleet Reliability Intelligence Platform  
-Developed a real-time fleet analytics platform using **Python, FastAPI, Kafka, PostgreSQL, WebSockets, Docker, and anomaly detection**.
-
+### LWC-Pagination 
+Created a Lightning page where I added three different tabs. In each tabs different data are rendered in tabular form using **Lightning-datatable**. I have added Lightning pagination for showing 10 datas per page.
 
 ---
 
 # 🏆 Certifications:
 
-- AWS Certified Cloud Practitioner  
-- AWS Certified Data Engineer - Associate  
-- AWS Certified Machine Learning Engineer - Associate  
-- NVIDIA Accelerated Data Science  
-- Claude with Amazon Bedrock  
+ - Salesforce Certified Administrator
+ - Salesforce Certified Advanced Administrator 
+ - Salesforce Certified Platform Developer I 
+ - Salesforce Certified Platform App Builder 
+ - Salesforce Certified Cloud Consultant 
+ - Salesforce Certified AI Associate 
+ - Salesforce Certified Associate
 
 ---
 
