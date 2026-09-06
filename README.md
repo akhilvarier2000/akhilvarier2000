@@ -1,24 +1,49 @@
+![MasterHead](https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif)
 
-<h1 align="center">Hi, I'm Akhil Varier</h1>
-
+<!--
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&pause=1200&color=5898FF&center=true&vCenter=true&width=800&height=50&lines=Salesforce+Developer+%E2%9A%A1%EF%B8%8F;Aspiring+AI+%26+ML+Engineer+%F0%9F%A4%96" alt="Animated roles" />
+  <img src="https://commit-craft.wjz-p.workers.dev/api/banner/akhilvarier2000/commits.svg" alt="Commits Banner" width="22%">
+  <img src="https://commit-craft.wjz-p.workers.dev/api/banner/akhilvarier2000/stars.svg" alt="Stars Banner" width="22%">
+  <img src="https://commit-craft.wjz-p.workers.dev/api/banner/akhilvarier2000/prs.svg" alt="PRs Banner" width="22%">
+  <img src="https://commit-craft.wjz-p.workers.dev/api/banner/akhilvarier2000/repos.svg" alt="Repos Banner" width="22%">
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=akhilvarier2000&label=Profile%20Views&color=5898FF&style=flat" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/akhilvarier2000?label=Followers&style=flat&color=5898FF" alt="GitHub followers" />
-</p>
+<!--
+![MasterHead](https://i.pinimg.com/originals/90/70/32/9070324cdfc07c68d60eed0c39e77573.gif)
+
+<div align="center">
+<!--
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:050a0f,40:0a1f35,100:003d5c&text=Your%20Name&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Your%20Title%20%7C%20Specialization&descAlignY=60&descSize=18&stroke=00c8ff&strokeWidth=1"/>
+-->
+
+<div align="center">
+  
+<a href="https://github.com/akhilvarier2000" target="_blank"><img src="https://komarev.com/ghpvc/?username=akhilvarier2000&label=Profile+Views&color=0a1f35&style=for-the-badge&labelColor=00c8ff"/></a>
+&nbsp;
+<a href="" target="_blank">
+  <img src="https://img.shields.io/badge/📍_Location-Pune%2C_Maharashtra-ffffff?style=for-the-badge&labelColor=0a1f35"/>
+</a>
+&nbsp;
+<a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank"><img src="https://img.shields.io/badge/🧠_Focus-Artificial_Intelligence-ffffff?style=for-the-badge&labelColor=0a1f35"/></a>
+&nbsp;
+<a href="https://github.com/akhilvarier2000?tab=repositories" target="_blank"><img src="https://img.shields.io/github/stars/akhilvarier2000?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&label=Total%20Stars&color=ffffff&labelColor=0a1f35"/></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/akhilvarier" target="_blank"><img src="https://img.shields.io/badge/🤝_Status-Open_to_Collaborate-ffffff?style=for-the-badge&labelColor=0a1f35"/></a>
+
+</div>
 
 ---
 
-# 👋 About Me:
+## 🧑‍💻 About Me
  
 💻 Salesforce Developer and Administrator building **AI-powered Salesforce solutions, cloud data pipelines, and intelligent backend systems**.<br>
 🤖 Building with **LLMs, RAG, Prompt Engineering, OpenAI APIs, LangChain, FAISS, and Streamlit**  
 🧠 Interested in **Generative AI, Agentic AI, machine learning, and cloud-native applications**  
 🌱 Continuously learning advanced AI agent workflows, scalable backend systems, and production-grade data platforms  
 🔗 Connect with me below
+**Always building. Always shipping. ⚡**
+
+</div>
 
 ---
 
@@ -63,7 +88,6 @@
 ![Git](https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
-
 # 🚀 Featured Projects:
 
 
@@ -99,3 +123,12 @@ Created a Lightning page where I added three different tabs. In each tabs differ
 - BI dashboards and KPI reporting  
 - Machine learning model evaluation and forecasting  
 
+
+
+## 📂 All Repositories
+
+<div align="center">
+<a href="https://github.com/your-username?tab=repositories" target="_blank"><img src="https://img.shields.io/badge/📁_Explore_All_Repositories-050a0f?style=for-the-badge&logo=github&logoColor=00c8ff&labelColor=0a1f35" alt="All Repos"/></a>
+</div>
+
+---
